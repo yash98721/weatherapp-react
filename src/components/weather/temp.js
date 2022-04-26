@@ -50,7 +50,7 @@ const Temp = () => {
             placeholder="search"
             autoFocus
             id="search"
-            clasasName="searchTerm"
+            className="searchTerm"
             value={searchValue}
             onChange={(e) => {
               setSearchValue(e.target.value);
