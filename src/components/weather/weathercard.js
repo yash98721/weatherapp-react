@@ -7,7 +7,7 @@ const Weathercard = ({
         speed,
         country,sunset,
 }) => {
-const [weatherState,setWeatherState] = React.useState()
+const [weatherState,setWeatherState] = useState()
 
 //weathermood
     useEffect(()=>{
